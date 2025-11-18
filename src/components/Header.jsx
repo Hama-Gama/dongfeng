@@ -71,7 +71,7 @@ const Header = () => {
 							{link.label}
 						</a>
 					))}
-					<div className='ml-8'>
+					<div className='ml-4'>
 						<LanguageSwitcher />
 					</div>
 				</nav>
@@ -83,7 +83,7 @@ const Header = () => {
 					<img src='/logo.png' alt='Logo' className='h-10 p-1' />
 				</Link>
 
-				<div className='absolute left-1/2 -translate-x-1/2'>
+				<div className='absolute left-[64%] -translate-x-1/2'>
 					<LanguageSwitcher />
 				</div>
 

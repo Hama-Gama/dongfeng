@@ -11,7 +11,7 @@ const Contacts = () => {
 	const { t } = useTranslation()
 	const [copied, setCopied] = useState(false)
 
-	const email = 'ardager121@mail.ru'
+	const email = 'alatau_auto@gmail.com'
 
 	const handleCopy = () => {
 		navigator.clipboard.writeText(email)
@@ -52,7 +52,12 @@ const Contacts = () => {
 
 							<div className='flex items-center gap-3'>
 								<Phone className='text-gray-700' />
-								<p className='text-gray-800'>+7 (707) 891 91 81</p>
+								<p className='text-gray-800'>+7 747 927 85 75</p>
+							</div>
+
+							<div className='flex items-center gap-3'>
+								<Phone className='text-gray-700' />
+								<p className='text-gray-800'>+7 701 649 0037</p>
 							</div>
 
 							<div className='flex items-center gap-3'>
@@ -63,30 +68,30 @@ const Contacts = () => {
 							{/* Соцсети в одну строку */}
 							<div className='flex items-center justify-start gap-6 mt-4'>
 								<a
-									href='https://wa.me/77078919181'
+									href='https://wa.me/77479278575'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
 									<Button
 										variant='outline'
 										size='icon'
-										className='rounded-full border-gray-200 hover:bg-green-50 text-green-600 hover:text-green-700 transition-all'
+										className='w-12 h-12 rounded-full border-gray-200 hover:bg-green-50 text-green-600 hover:text-green-700 transition-all'
 									>
-										<FaWhatsapp size={24} />
+										<FaWhatsapp size={32} />
 									</Button>
 								</a>
 
 								<a
-									href='https://t.me/hama_gamma'
+									href='https://t.me/'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
 									<Button
 										variant='outline'
 										size='icon'
-										className='rounded-full border-gray-200 hover:bg-blue-50 text-blue-500 hover:text-blue-600 transition-all'
+										className='w-12 h-12 rounded-full border-gray-200 hover:bg-blue-50 text-blue-500 hover:text-blue-600 transition-all'
 									>
-										<FaTelegramPlane size={24} />
+										<FaTelegramPlane size={32} />
 									</Button>
 								</a>
 
@@ -98,9 +103,9 @@ const Contacts = () => {
 									<Button
 										variant='outline'
 										size='icon'
-										className='rounded-full border-gray-200 hover:bg-pink-50 text-pink-600 hover:text-pink-700 transition-all'
+										className='w-12 h-12 rounded-full border-gray-200 hover:bg-pink-50 text-pink-600 hover:text-pink-700 transition-all'
 									>
-										<FaInstagram size={24} />
+										<FaInstagram size={32} />
 									</Button>
 								</a>
 							</div>
