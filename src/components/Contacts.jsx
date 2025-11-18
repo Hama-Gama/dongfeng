@@ -22,10 +22,10 @@ const Contacts = () => {
 	return (
 		<section id='contacts' className='py-16 bg-gray-50'>
 			<div className='max-w-6xl mx-auto px-4'>
-				<h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4'>
+				<h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-2'>
 					{t('contacts.title')}
 				</h2>
-				<p className='text-center text-gray-600 mb-12'>
+				<p className='text-center text-gray-600 mb-6'>
 					{t('contacts.subtitle')}
 				</p>
 
