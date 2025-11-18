@@ -15,7 +15,7 @@ const ProductCard = ({ id, image, title }) => {
 				</h3>
 				<Link
 					to={`/product/${id}`}
-					className='text-sm text-white whitespace-nowrap bg-blue-500 hover:bg-blue-600 px-6 py-1 rounded-md transition'
+					className='text-sm text-white whitespace-nowrap bg-blue-500 hover:bg-blue-600 px-5 py-1 rounded-md transition'
 				>
 					ПОДРОБНЕЕ
 				</Link>
