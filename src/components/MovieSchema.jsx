@@ -12,11 +12,6 @@ const MovieSchema = () => {
 			description:
 				'Официальный сайт фильма «Айлин». Узнайте о премьере, актёрах, сюжете и трейлере драмы 2026 года. Новости и фото со съёмок.',
 		},
-		en: {
-			title: 'Ailyn — official 2026 movie website',
-			description:
-				'Official website of the film “Ailyn”. Learn about the 2026 premiere, cast, story, and trailer of this emotional drama.',
-		},
 		kk: {
 			title: 'Айлин — 2026 жылғы фильмнің ресми сайты',
 			description:

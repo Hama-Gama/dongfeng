@@ -12,11 +12,11 @@
 		"contacts": "Контакты",
 		"donates": "Поддержать"
 	},
-	"hero": {
-		"title": "Айлин",
-		"subtitle": "Короткометражный фильм",
-		"genre": "Жанр: криминальная драма"
-	},
+  "hero": {
+    "title": "ТОО Alatau Auto Tech",
+    "subtitle": "Официальный дистрибьютор",
+    "genre": "Dongfeng Commercial Vehicle Co., Ltd."
+  },
 	"filmInfo": {
 		"title": "Информация о фильме",
 		"duration": "Хронометраж фильма: 15 мин.",
