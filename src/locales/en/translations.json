@@ -1,0 +1,147 @@
+{
+	"site": {
+		"title": "Ailyn"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"director": "Director",
+		"screenplay": "Screenplay",
+		"team": "Team",
+		"news": "News",
+		"contacts": "Contacts",
+		"donates": "Support"
+	},
+	"hero": {
+		"title": "Ailyn",
+		"subtitle": "Short film",
+		"genre": "Genre: crime drama"
+	},
+	"filmInfo": {
+		"title": "Film Information",
+		"duration": "Duration: 15 minutes",
+		"language": "Language: Kazakh / Russian",
+		"days": "Number of shooting days: 5",
+		"genre": "Genre: crime drama / action",
+		"city": "City: Almaty",
+		"budget": "Budget: not yet determined",
+		"goal": "Goal: action festivals in Kazakhstan, CIS, and abroad"
+	},
+	"team": {
+		"title": "Team Recruitment",
+		"apply": "Submit an application"
+	},
+	"team": {
+		"title": "Team Recruitment",
+		"apply": "Submit an Application",
+		"formTitle": "Application Form",
+		"salary": "Fees: not yet determined, under discussion.",
+		"roles": {
+			"producer": "Producer",
+			"director": "Director",
+			"stunt_actor": "Stunt Performer / Actor",
+			"fight_coordinator": "Fight Scene Coordinator",
+			"videographer": "Videographer (BMPCC 6k | Sony FX3)",
+			"sound_engineer": "Sound Engineer",
+			"actors": "Actors",
+			"action_operator": "Action Camera Operator",
+			"lighting": "Lighting Technician",
+			"pyrotechnician": "Pyrotechnician (weapons)",
+			"production_designer": "Production Designer",
+			"vfx_editor": "VFX Editor",
+			"script_supervisor": "Script Supervisor",
+			"onset_editor": "On-Set Editor",
+			"makeup_artist": "Makeup Artist",
+			"costume_designer": "Costume Designer",
+			"storyboard_artist": "Storyboard Artist",
+			"composer": "Composer",
+			"bts_operator": "Behind-the-Scenes Operator (smartphone)",
+			"smm_marketer": "SMM / Film Festival Marketing Specialist"
+		},
+		"form": {
+			"fullName": "Full Name",
+			"fullNamePlaceholder": "Enter your first and last name",
+			"phone": "Phone",
+			"email": "Email",
+			"role": "Role",
+			"rolePlaceholder": "Which role are you applying for?",
+			"message": "Message",
+			"messagePlaceholder": "Tell us about your experience or skills",
+			"submit": "Send Application",
+			"sending": "Sending...",
+			"success": "Your application has been successfully sent!"
+		}
+	},
+	"references": {
+		"visual": "Visual and Mood References for the Film",
+		"operator": "References for the Videographer",
+		"sound": "References for the Sound Engineer",
+		"noCountryForOldMen": "No Country for Old Men (2007)",
+		"action": "References for the Action Choreographer",
+		"theRaid": "Film “The Raid” (2011)"
+	},
+	"crew": {
+		"title": "Film Crew",
+		"producer": "Producer",
+		"director": "Director",
+		"writer": "Writer",
+		"stunt": "Stunt Performer",
+		"cinematographer": "Cinematographer",
+		"sound": "Sound Engineer",
+		"vacant": "Vacant",
+		"names": {
+			"askar": "Askar Askar"
+		}
+	},
+	"actors": {
+		"title": "Cast Members",
+		"mainRole": "The officer of the National Security Committee",
+		"supporting": "Aylin",
+		"secondary": "Minor Role",
+		"vacant": "Position Available",
+		"names": {
+			"khamit": "Khamit Arkayev",
+			"aliya": "Aliya Utesbayeva"
+		}
+	},
+	"sections": {
+		"news": {
+			"title": "News & Blog",
+			"video": "Video",
+			"podcast": "Podcast",
+			"backstage": "Backstage",
+			"article": "Article",
+			"videoTitle": "Interview with the film actors",
+			"videoDesc": "A behind-the-scenes discussion and preparation for shooting.",
+			"podcastTitle": "Podcast about the film production",
+			"podcastDesc": "Conversation with producers and directors about the creative process.",
+			"backstageTitle": "Behind the scenes of filming",
+			"backstageDesc": "How the most challenging scenes were made.",
+			"articleTitle": "New article about the project",
+			"articleDesc": "The latest news and interviews with the film crew."
+		}
+	},
+	"contacts": {
+		"title": "Contacts",
+		"subtitle": "Get in touch — we’d love to collaborate!",
+		"name": "Your name",
+		"email": "Your email",
+		"message": "Message",
+		"send": "Send",
+		"telegram": "Telegram",
+		"address": "Almaty, Kazakhstan"
+	},
+	"support": {
+		"title": "Support the Project",
+		"subtitle": "Your contribution helps us develop the film industry and create inspiring stories.",
+		"helpUs": "Support our project!",
+		"currency": "Currency",
+		"or": "or",
+		"otherAmount": "Other amount",
+		"enterAmount": "Enter your donation amount",
+		"amountPlaceholder": "Enter amount...",
+		"selectedCurrency": "Selected currency",
+		"confirm": "Confirm",
+		"transfersUnavailable": "Transfers unavailable"
+	}
+}
