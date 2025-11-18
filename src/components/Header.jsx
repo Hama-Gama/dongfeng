@@ -71,7 +71,7 @@ const Header = () => {
 							{link.label}
 						</a>
 					))}
-					<div className='ml-4'>
+					<div className='ml-8'>
 						<LanguageSwitcher />
 					</div>
 				</nav>
