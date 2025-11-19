@@ -4,13 +4,9 @@
 	},
 	"nav": {
 		"home": "Главная",
-		"about": "О фильме",
-		"director": "Режиссер",
-		"screenplay": "Сценарий",
-		"team": "Команда",
-		"news": "Новости",
-		"contacts": "Контакты",
-		"donates": "Поддержать"
+		"about": "О нас",
+		"products": "Продукция",
+		"contacts": "Контакты"
 	},
   "hero": {
     "title": "ТОО Alatau Auto Tech",

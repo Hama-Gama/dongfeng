@@ -12,10 +12,8 @@ const Header = () => {
 	const navLinks = [
 		{ label: t('nav.home'), href: '/' },
 		{ label: t('nav.about'), href: '#about' },
-		{ label: t('nav.team'), href: '#team' },
-		{ label: t('nav.news'), href: '#news' },
+		{ label: t('nav.products'), href: '#products' },
 		{ label: t('nav.contacts'), href: '#contacts' },
-		{ label: t('nav.donates'), href: '#donates' },
 	]
 
 	// 👉 Закрытие меню по ESC

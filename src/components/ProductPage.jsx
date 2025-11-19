@@ -6,24 +6,37 @@ const ProductPage = () => {
 	// Пример данных — можно заменить на fetch
 	const product = {
 		id,
-		title: 'Dongfeng DFL4251A',
-		images: [
-			'/images/dongfeng1.jpg',
-			'/images/dongfeng2.jpg',
-			'/images/dongfeng3.jpg',
-		],
+		images: ['/images/1.jpg', '/images/1a.jpg', '/images/1b.jpg'],
 		specs: {
-			Модель: 'DFL4251A',
-			Мощность: '420 л.с.',
-			Грузоподъёмность: '25 тонн',
-			Двигатель: 'Cummins ISGe5-420',
-			Кабина: 'Высокая, двухспальная',
+			'Тип кабины': 'Стандартная крыша с одним спальным местом',
+			'Тип привода': '6×4 / 8×4',
+			'Колесная база (мм)': '3800 + 1450 / 1850 + 3400 + 1350',
+			'Снаряженная масса (кг)': '9500 / 11500',
+			Двигатель: 'Cummins ISL 340 50 / Cummins ISL 380 50',
+			'Уровень выбросов': 'Евро-5',
+			'Максимальная мощность (HP)': '340 / 380',
+			'Максимальный крутящий момент (N·M)': '1500 / 1700',
+			'Коробка передач': 'FAST 12J180T (12 передач)',
+			'Передний мост (T)': '7 / 7×2',
+			'Задний мост (T)': '13×2',
+			'Главное передаточное число': '5,92',
+			'Передняя подвеска': '10-листовая рессора (многолистовая)',
+			'Задняя подвеска': '12-листовая / 13-листовая рессора (многолистовая)',
+			Шины: '315/80R22.5',
+			'Топливный бак (L)': '400',
 		},
 	}
 
 	return (
 		<section className='max-w-5xl mx-auto px-4 py-8'>
-			<h1 className='text-3xl font-bold mb-4'>{product.title}</h1>
+			<div className='mb-6'>
+				<h1 className='w-full text-5xl font-bold text-gray-800 text-center leading-tight'>
+					Dongfeng
+				</h1>
+				<h2 className='text-xl text-gray-600 text-center mt-2'>
+					DFH3330DJ80-K22R
+				</h2>
+			</div>
 
 			{/* Галерея */}
 			<div className='grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6'>

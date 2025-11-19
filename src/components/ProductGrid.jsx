@@ -15,12 +15,37 @@ const ProductGrid = () => {
 				/>
 				<ProductCard
 					id='dongfeng-3751'
-					image='/images/2.jpeg'
+					image='/images/2.jpg'
 					title='Dongfeng DFL371A'
 				/>
 				<ProductCard
 					id='dongfeng-3400'
-					image='/images/3.jpeg'
+					image='/images/3.jpg'
+					title='Dongfeng DFL300B'
+				/>
+				<ProductCard
+					id='dongfeng-3400'
+					image='/images/4.jpg'
+					title='Dongfeng DFL300B'
+				/>
+				<ProductCard
+					id='dongfeng-4251'
+					image='/images/1.jpeg'
+					title='Dongfeng DFL451A'
+				/>
+				<ProductCard
+					id='dongfeng-3751'
+					image='/images/2.jpg'
+					title='Dongfeng DFL371A'
+				/>
+				<ProductCard
+					id='dongfeng-3400'
+					image='/images/3.jpg'
+					title='Dongfeng DFL300B'
+				/>
+				<ProductCard
+					id='dongfeng-3400'
+					image='/images/4.jpg'
 					title='Dongfeng DFL300B'
 				/>
 			</div>

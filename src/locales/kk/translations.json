@@ -4,13 +4,9 @@
 	},
 	"nav": {
 		"home": "Басты бет",
-		"about": "Фильм туралы",
-		"director": "Режиссер",
-		"screenplay": "Сценарий",
-		"team": "Топ",
-		"news": "Жаңалықтар",
-		"contacts": "Байланыс",
-		"donates": "Қолдау көрсету"
+		"about": "Біз туралы",
+		"products": "Өнімдер",
+		"contacts": "Байланыс"
 	},
 	"hero": {
 		"title": "Alatau Auto Tech ЖШС",
