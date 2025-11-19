@@ -1,10 +1,10 @@
-import { useEffect } from 'react'
+import { useLayoutEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
 const ProductPage = () => {
 	const { id } = useParams()
 
-	useEffect(() => {
+	useLayoutEffect(() => {
 		window.scrollTo(0, 0)
 	}, [])
 
@@ -33,6 +33,7 @@ const ProductPage = () => {
 
 	return (
 		<section className='max-w-5xl mx-auto px-4 py-8'>
+			{/* Заголовок */}
 			<div className='mb-6 min-h-[120px]'>
 				<h1 className='w-full text-5xl font-bold text-gray-800 text-center leading-tight'>
 					Dongfeng
