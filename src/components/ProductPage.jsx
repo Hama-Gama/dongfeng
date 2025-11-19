@@ -1,9 +1,13 @@
+import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
 const ProductPage = () => {
 	const { id } = useParams()
 
-	// Пример данных — можно заменить на fetch
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
 	const product = {
 		id,
 		images: ['/images/1.jpg', '/images/1a.jpg', '/images/1b.jpg'],
@@ -29,7 +33,7 @@ const ProductPage = () => {
 
 	return (
 		<section className='max-w-5xl mx-auto px-4 py-8'>
-			<div className='mb-6'>
+			<div className='mb-6 min-h-[120px]'>
 				<h1 className='w-full text-5xl font-bold text-gray-800 text-center leading-tight'>
 					Dongfeng
 				</h1>
