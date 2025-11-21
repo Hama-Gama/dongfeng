@@ -11,26 +11,11 @@ const ProductGrid = () => {
 			</h2>
 
 			<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
-				<ProductCard
-					id='dongfeng-4251'
-					image='/images/1.jpeg'
-					title='Dongfeng DFL451A'
-				/>
-				<ProductCard
-					id='dongfeng-3751'
-					image='/images/2.jpg'
-					title='Dongfeng DFL371A'
-				/>
-				<ProductCard
-					id='dongfeng-3400'
-					image='/images/3.jpg'
-					title='Dongfeng DFL300B'
-				/>
-				<ProductCard
-					id='dongfeng-3400'
-					image='/images/4.jpg'
-					title='Dongfeng DFL300B'
-				/>
+				<ProductCard id={1} image='/images/KL4X2/1.jpg' category='KL 4 x 2' />
+				<ProductCard id={2} image='/images/KL6X2/1.jpg' category='KL 6 x 2' />
+				<ProductCard id={3} image='/images/GX4X2/3.jpg' category='GX 4 x 2' />
+				<ProductCard id={4} image='/images/VR4X4/1.jpg' category='VR 4 x 4' />
+				<ProductCard id={5} image='/images/VR6X6/1.jpg' category='VR 6 x 6' />
 				{/* остальные карточки */}
 			</div>
 
