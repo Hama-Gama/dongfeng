@@ -1,6 +1,6 @@
 {
 	"site": {
-		"title": "Айлин"
+		"title": "Dongfeng"
 	},
 	"nav": {
 		"home": "Главная",
@@ -8,14 +8,14 @@
 		"products": "Продукция",
 		"contacts": "Контакты"
 	},
-  "hero": {
-    "title": "ТОО Alatau Auto Tech",
-    "subtitle": "Официальный дистрибьютор",
-    "genre": "Dongfeng Commercial Vehicle Co., Ltd."
-  },
-	"team": {
-		"title": "Набор команды",
-		"apply": "Подать заявку на участие"
+	"hero": {
+		"title": "ТОО Alatau Auto Tech",
+		"subtitle": "Официальный дистрибьютор",
+		"genre": "Dongfeng Commercial Vehicle Co., Ltd."
+	},
+	"products": {
+		"title": "Наши модели",
+		"downloadCatalog": "Скачать весь каталог PDF"
 	},
 	"contacts": {
 		"title": "Контакты",

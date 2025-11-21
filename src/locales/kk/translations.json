@@ -1,6 +1,6 @@
 {
 	"site": {
-		"title": "Айлин"
+		"title": "Dongfeng"
 	},
 	"nav": {
 		"home": "Басты бет",
@@ -13,7 +13,10 @@
 		"subtitle": "Ресми дистрибьютор",
 		"genre": "Dongfeng Commercial Vehicle Co., Ltd."
 	},
-
+	"products": {
+		"title": "Біздің өнімдер",
+		"downloadCatalog": "Толық каталогты PDF жүктеу"
+	},
 	"contacts": {
 		"title": "Байланыс",
 		"subtitle": "Бізбен хабарласыңыз — ынтымақтасуға қуаныштымыз!",
