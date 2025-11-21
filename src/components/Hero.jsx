@@ -5,16 +5,34 @@ import { useEffect, useState } from 'react'
 export default function Hero() {
 	const { t } = useTranslation()
 	const [visible, setVisible] = useState(false)
+	const [bgImage, setBgImage] = useState('/images/hero-pc.jpg')
 
 	useEffect(() => {
+		// Анимация появления
 		const timer = setTimeout(() => setVisible(true), 50)
-		return () => clearTimeout(timer)
+
+		// Проверка ширины экрана
+		const handleResize = () => {
+			if (window.innerWidth < 768) {
+				setBgImage('/images/hero-sm.jpg')
+			} else {
+				setBgImage('/images/hero-pc.jpg')
+			}
+		}
+
+		handleResize() // вызвать при монтировании
+		window.addEventListener('resize', handleResize)
+
+		return () => {
+			clearTimeout(timer)
+			window.removeEventListener('resize', handleResize)
+		}
 	}, [])
 
 	return (
 		<section
 			className='relative w-full h-screen bg-cover bg-center'
-			style={{ backgroundImage: "url('/images/hero-pc.jpg')" }}
+			style={{ backgroundImage: `url('${bgImage}')` }}
 		>
 			<div className='absolute inset-0 bg-black/50'></div>
 
