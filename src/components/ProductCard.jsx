@@ -14,7 +14,7 @@ const ProductCard = ({ id, image, category }) => {
 
 				{/* Надпись поверх */}
 				<div className='absolute inset-0 flex items-center justify-center'>
-					<h2 className='text-4xl md:text-5xl font-bold text-white'>
+					<h2 className='text-[150px] md:text-[120px] font-bold text-gray-300'>
 						{category}
 					</h2>
 				</div>
