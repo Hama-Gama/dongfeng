@@ -5,36 +5,13 @@
 
   <!-- Главная страница -->
   <url>
-    <loc>https://ailynfilm.kz/</loc>
+    <loc>https://www.aatech.kz/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ailynfilm.kz/ru/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ailynfilm.kz/en/" />
-    <xhtml:link rel="alternate" hreflang="kk" href="https://ailynfilm.kz/kk/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ailynfilm.kz/" />
-  </url>
-
-  <!-- Страница фильма -->
-  <url>
-    <loc>https://ailynfilm.kz/movie/ailyn</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ailynfilm.kz/ru/movie/ailyn" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ailynfilm.kz/en/movie/ailyn" />
-    <xhtml:link rel="alternate" hreflang="kk" href="https://ailynfilm.kz/kk/movie/ailyn" />
-  </url>
-
-  <!-- Пример страницы контактов -->
-  <url>
-    <loc>https://ailynfilm.kz/contact</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ailynfilm.kz/ru/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ailynfilm.kz/en/contact" />
-    <xhtml:link rel="alternate" hreflang="kk" href="https://ailynfilm.kz/kk/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.aatech.kz/ru/" />
+    <xhtml:link rel="alternate" hreflang="kk" href="https://www.aatech.kz/kk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aatech.kz/" />
   </url>
 
 </urlset>
