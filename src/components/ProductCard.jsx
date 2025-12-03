@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 const ProductCard = ({ id, image, category }) => {
+  const { t } = useTranslation() 
+
 	return (
 		<div className='w-full max-w-sm rounded-[10px] overflow-hidden shadow-md relative'>
 			{/* Фон с картинкой и затемнением */}
