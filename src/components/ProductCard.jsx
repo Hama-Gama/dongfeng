@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const ProductCard = ({ id, image, category }) => {
 	return (
@@ -26,7 +27,7 @@ const ProductCard = ({ id, image, category }) => {
 					to={`/product/${id}`}
 					className='text-sm text-white whitespace-nowrap bg-blue-500 hover:bg-blue-600 px-5 py-1 rounded-md transition'
 				>
-					ПОДРОБНЕЕ
+					{t('detailsCard')}
 				</Link>
 			</div>
 		</div>
