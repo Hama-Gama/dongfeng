@@ -57,7 +57,7 @@ const Contacts = () => {
 
 							<div className='flex items-center gap-3'>
 								<Phone className='text-gray-700' />
-								<p className='text-gray-800'>+7 701 649 0037</p>
+								<p className='text-gray-800'>+7 701 649 00 37</p>
 							</div>
 
 							<div className='flex items-center gap-3'>
