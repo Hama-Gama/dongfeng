@@ -11,7 +11,7 @@ const Contacts = () => {
 	const { t } = useTranslation()
 	const [copied, setCopied] = useState(false)
 
-	const email = 'alatau_auto@gmail.com'
+	const email = 'yerassyl.zh@mail.ru'
 
 	const handleCopy = () => {
 		navigator.clipboard.writeText(email)
