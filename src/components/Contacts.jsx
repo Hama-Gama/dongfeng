@@ -13,8 +13,8 @@ const Contacts = () => {
 	const { t } = useTranslation()
 	const [copied, setCopied] = useState(false)
 	const [formData, setFormData] = useState({
-		name: '',
-		email: '',
+		from_name: '',
+		from_email: '',
 		message: '',
 	})
 
