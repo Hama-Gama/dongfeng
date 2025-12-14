@@ -40,25 +40,20 @@ const handleSubmit = e => {
 			import.meta.env.VITE_EMAILJS_SERVICE_ID,
 			import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
 			{
-				from_name: formData.name,
-				from_email: formData.email,
+				from_name: formData.from_name, 
+				from_email: formData.from_email, 
 				message: formData.message,
 			},
 			import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 		)
 		.then(() => {
-			 toast.success('Сообщение отправлено!', { id: sendingToast })
+			toast.success('Сообщение отправлено!', { id: sendingToast })
 			setFormData({ from_name: '', from_email: '', message: '' })
 		})
 		.catch(() => {
 			toast.error('Ошибка отправки', { id: sendingToast })
 		})
 }
-
-
-
-
-
 
 
 	return (
@@ -165,7 +160,7 @@ const handleSubmit = e => {
 									// value={formData.name}
 									onChange={handleChange}
 									placeholder={t('contacts.name')}
-									className='rounded-[5px]'
+									className='rounded-[5px] !text-lg !placeholder:text-lg'
 								/>
 								<Input
 									name='from_email'
@@ -175,18 +170,18 @@ const handleSubmit = e => {
 									// value={formData.email}
 									onChange={handleChange}
 									placeholder={t('contacts.email')}
-									className='rounded-[5px]'
+									className='rounded-[5px] !text-lg !placeholder:text-lg'
 								/>
 								<Textarea
 									name='message'
 									value={formData.message}
 									onChange={handleChange}
 									placeholder={t('contacts.message')}
-									className='min-h-[120px] rounded-[5px]'
+									className='min-h-[120px] rounded-[5px] !text-lg !placeholder:text-lg'
 								/>
 								<Button
 									type='submit'
-									className='w-[200px] bg-black hover:bg-gray-800 text-white rounded-xl flex items-center justify-center gap-2'
+									className='w-[170px] p-4 bg-black hover:bg-gray-800 text-white rounded-xl flex items-center justify-center gap-4'
 								>
 									<Send className='w-4 h-4' /> {t('contacts.send')}
 								</Button>
