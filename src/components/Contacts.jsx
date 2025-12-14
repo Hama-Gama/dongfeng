@@ -48,7 +48,7 @@ const handleSubmit = e => {
 		)
 		.then(() => {
 			 toast.success('Сообщение отправлено!', { id: sendingToast })
-			setFormData({ name: '', email: '', message: '' })
+			setFormData({ from_name: '', from_email: '', message: '' })
 		})
 		.catch(() => {
 			toast.error('Ошибка отправки', { id: sendingToast })
@@ -157,36 +157,40 @@ const handleSubmit = e => {
 					{/* Форма */}
 					<Card className='shadow-md border-none bg-white'>
 						<form onSubmit={handleSubmit}>
-						<CardContent className='p-6 space-y-4 text-2xl'>
-							<Input
-								name='name'
-								value={formData.name}
-								onChange={handleChange}
-								placeholder={t('contacts.name')}
-								className='rounded-[5px]'
-							/>
-							<Input
-								type='email'
-								name='email'
-								value={formData.email}
-								onChange={handleChange}
-								placeholder={t('contacts.email')}
-								className='rounded-[5px]'
-							/>
-							<Textarea
-								name='message'
-								value={formData.message}
-								onChange={handleChange}
-								placeholder={t('contacts.message')}
-								className='min-h-[120px] rounded-[5px]'
-							/>
-							<Button
-								type='submit'
-								className='w-[200px] bg-black hover:bg-gray-800 text-white rounded-xl flex items-center justify-center gap-2'
-							>
-								<Send className='w-4 h-4' /> {t('contacts.send')}
-							</Button>
-						</CardContent>
+							<CardContent className='p-6 space-y-4 text-2xl'>
+								<Input
+									name='from_name'
+									value={formData.from_name}
+									// name='name'
+									// value={formData.name}
+									onChange={handleChange}
+									placeholder={t('contacts.name')}
+									className='rounded-[5px]'
+								/>
+								<Input
+									name='from_email'
+									value={formData.from_email}
+									type='email'
+									// name='email'
+									// value={formData.email}
+									onChange={handleChange}
+									placeholder={t('contacts.email')}
+									className='rounded-[5px]'
+								/>
+								<Textarea
+									name='message'
+									value={formData.message}
+									onChange={handleChange}
+									placeholder={t('contacts.message')}
+									className='min-h-[120px] rounded-[5px]'
+								/>
+								<Button
+									type='submit'
+									className='w-[200px] bg-black hover:bg-gray-800 text-white rounded-xl flex items-center justify-center gap-2'
+								>
+									<Send className='w-4 h-4' /> {t('contacts.send')}
+								</Button>
+							</CardContent>
 						</form>
 					</Card>
 				</div>
