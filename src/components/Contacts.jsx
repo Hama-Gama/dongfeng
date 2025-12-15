@@ -18,7 +18,7 @@ const Contacts = () => {
 		message: '',
 	})
 
-	const email = 'yerassyl.zh@mail.ru'
+	const email = 'dongfeng.alatau@gmail.com'
 
 	const handleCopy = () => {
 		navigator.clipboard.writeText(email)
